@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Project1 {
 
 	public static void main(String[] args) {
-		String fileName = "./testfiles/bitcoin.txt"; // TODO: replace this with args[1];
+		String fileName = args[0]; // TODO: replace this with args[1];
 		List<Double> prices = getList(fileName);
 
 		if (prices.isEmpty()) return;
