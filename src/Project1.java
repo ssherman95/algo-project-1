@@ -12,8 +12,8 @@ public class Project1 {
 		List<Double> prices = getList(fileName);
 
 		if (prices.isEmpty()) return;
-		System.out.printf("Found %d prices\n", prices.size());
-		System.out.println(prices);
+		//System.out.printf("Found %d prices\n", prices.size());
+		//System.out.println(prices);
 		System.out.printf("Best profit for %s is %f\n", fileName, getBestProfit(prices, 0, prices.size() - 1));
 	}
 
