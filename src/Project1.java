@@ -14,7 +14,7 @@ public class Project1 {
 		if (prices.isEmpty()) return;
 		//System.out.printf("Found %d prices\n", prices.size());
 		//System.out.println(prices);
-		System.out.printf("Best profit for %s is %f\n", fileName, getBestProfit(prices, 0, prices.size() - 1));
+		System.out.printf("The optimal solution for %s is %f\n", fileName, getBestProfit(prices, 0, prices.size() - 1));
 	}
 
 	public static Double getBestProfit(List<Double> prices, int i, int n) {
